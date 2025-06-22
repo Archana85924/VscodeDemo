@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>leraning js </h1>
+    <script>
+        var a=10;
+        console.log(a);//print ke liye use
+        console.warn("hello i am warning");//use for warning
+        console.error("error");
+        window.alert("hello")//page load karta hai
+        prompt("enter your name");//take input through window;
+        var n="archana";
+        n="jsp";//reasing
+        console.log(n);
+        let a1=10;
+        a1=60;
+        console.log(a1);
+//primitive data type----string ,null ,num,undifine
+//--{},(),[]-----------reference dt type
+//----------- a=10;
+//var b=a;
+//a=a+2;
+//soap-->a(12),b(10) so that why reference 
+//-----------------but aaray in case
+var arr=[1,2,3];
+var aar1=arr;
+arr.pop();
+console.log(arr);//but both refelect
+onsole.log(arr1);//
+//-----------how to resolve it --using spread becouse its make another obj
+var aar1=[...arr];
+arr.pop();
+console.log(arr);
+onsole.log(arr1);
+
+    </script>
+</body>
+</html>
